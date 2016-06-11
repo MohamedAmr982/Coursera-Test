@@ -1,0 +1,87 @@
+/************** Base Styles **************/
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: cursive;
+}
+h1{
+text-align: center;
+}
+h3{
+text-align: center;
+width: 100px;
+margin-bottom: 10px;
+border-left: 1px solid black;
+border-bottom: 1px solid black;
+position: relative;
+float: right;
+
+}
+h3.Chicken{background-color: #ffcccc;}
+h3.Beef{
+background-color: #e60000;
+color: #ffffff;
+}
+h3.Sushi{background-color: #ffcc66;}
+div.Chicken, div.Beef, div.Sushi{
+background-color: #a6a6a6;
+border: 3px solid black;
+margin: 10px;
+position: relative;
+float: left;
+overflow: auto;
+}
+p{
+margin: 10px;
+}
+div.Container{
+position: relative;
+width:100%;
+clear: both;
+}
+
+/************** Large Devices Only **************/
+@media (min-width: 992px){
+div.Chicken{
+width: 30%;
+top: 50px;
+min-width: 1px;
+}
+div.Beef{
+width: 30%;
+top: 50px;
+min-width: 1px;
+}
+div.Sushi{
+width: 30%;
+top: 50px;
+min-width: 1px;
+}
+}
+
+/************** Medium Devices Only **************/
+@media (min-width: 768px) and (max-width: 991px ){
+div.Chicken{
+top: 50px;
+min-width: 1px;
+width: 48%;
+}
+div.Beef{
+float: right;
+bottom: 134px;
+width: 48%;
+min-width: 1px;
+}
+div.Sushi{
+bottom: 140px;
+min-width: 1px;
+
+}
+}
+
+/************** Small Devices Only **************/
+@media (max-width: 767px){
+div.Chicken, div.Beef, div.Sushi{
+min-width: 1px;
+}
