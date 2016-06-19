@@ -21,3 +21,9 @@ div.section{
 #divContainer{
   margin: 28px;
 }
+#myNavbar, div.navbar-header{
+  background-color: #99ddff;
+}
+#color{
+  padding: 0px;
+}
