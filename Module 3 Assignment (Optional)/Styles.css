@@ -1,0 +1,96 @@
+/*Base Styles*/
+body{
+  font-family: 'Oxygen', sans-serif !important;
+}
+.navbar{
+  margin-bottom: 0px;
+}
+div.sectionContainer{
+  margin: 20px;
+  border: 3px solid black;
+}
+div.section{
+  padding: 10px;
+  background-color: #ffb84d;
+}
+#divContainer{
+  margin: 28px;
+}
+#myNavbar, div.navbar-header{
+  background-color: #99ddff;
+}
+#color{
+  padding: 0px;
+}
+#Chicken, #Beef, #Sushi{
+  width: 30%;
+  border: 3px solid black;
+  margin: 0px;
+  height: 30%;
+  position: relative;
+}
+.row{
+  margin: 0px;
+  position: relative;
+  top: 150px;
+}
+#title{
+  font-size: 40px;
+  position: relative;
+  bottom: 100px;
+}
+#mini-title{
+  margin: 0px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  width: 100%;
+}
+
+/*For Desktop*/
+@media (min-width: 992px){
+#Chicken{
+  left: 55px;
+}
+#Beef{
+  left: 65px;
+}
+#Sushi{
+  left: 75px;
+}
+}
+
+/*For Tablets*/
+@media (min-width: 768px) and (max-width: 991px){
+  #Chicken{
+    width: 48%;
+    left: 10px;
+  }
+  #Beef{
+    width: 48%;
+    left: 20px;
+  }
+  #Sushi{
+    width: 97.4%;
+    left: 10px;
+    top: 10px;
+  }
+}
+
+/*For Mobile Phones*/
+@media (max-width: 767px){
+  #Chicken{
+    left: 10px;
+    width: 97.4%;
+  }
+  #Beef{
+    left: 10px;
+    width: 97.4%;
+    top: 10px;
+  }
+  #Sushi{
+    left: 10px;
+    width: 97.4%;
+    top: 20px;
+  }
+}
